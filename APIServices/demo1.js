@@ -74,4 +74,32 @@ app.post('/verifyotp', (req, res) => {
 });
 
 
+app.post('/loginuser', (req, res) => {
+
+    const users = file.readFileSync(__dirname + '/userdata.json', 'utf-8') ? JSON.parse(file.readFileSync(__dirname + '/userdata.json', 'utf-8')) : [];
+    const user = users.find((u) => {
+        return u.email === req.body.email;
+    })
+
+    if (user) {
+        if (user.password === req.body.password) {
+            if (user.emailverified === "Y") {
+                res.status(200).send({ "msg": "Login Successful" });
+            }
+            else {
+                res.status(400).send({ "msg": "Email is not verified" });
+            }
+        }
+        else {
+            res.status(201).send({ "msg": "Invalid password" });
+        }
+    }
+
+    else {
+        res.status(201).send({ "msg": "User not found" });
+    }
+
+});
+
+
 app.listen(3005, '0.0.0.0', () => { console.log('Server is running on port 3005') });
