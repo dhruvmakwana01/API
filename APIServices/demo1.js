@@ -44,7 +44,34 @@ app.post('/register', (req, res) => {
     }
 });
 
+app.post('/verifyotp', (req, res) => {
 
+    const users = file.readFileSync(__dirname + '/userdata.json', 'utf-8') ? JSON.parse(file.readFileSync(__dirname + '/userdata.json', 'utf-8')) : [];
+    const user = users.find((u) => {
+        return u.email === req.body.email;
+    })
+
+    if (user) {
+        if (user.emailverified === "N") {
+            if (user.otpv === req.body.otp) {
+                user.emailverified = "Y";
+                file.writeFileSync(__dirname + '/userdata.json', JSON.stringify(users, null, 2));
+                res.status(200).send({ "msg": "OTP verified" });
+            }
+            else {
+                res.status(201).send({ "msg": "Invalid OTP" });
+            }
+        }
+        else {
+            res.status(200).send({ "msg": "Email already verified" });
+        }
+    }
+    else {
+        res.status(201).send({ "msg": "User not found" });
+
+    }
+
+});
 
 
 app.listen(3005, '0.0.0.0', () => { console.log('Server is running on port 3005') });

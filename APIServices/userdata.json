@@ -1,93 +1,30 @@
 [
   {
-    "email": "dhruv@twigg.in",
-    "password": "dhruv@twigg.in",
+    "email": "dhruv@gmail.com",
+    "password": "dhruv@gmail.com",
     "emailverified": "N",
-    "createdDateTime": "10/26/2026, 11:30:49 AM",
-    "otpv": "855986"
+    "createdDateTime": "10/28/2026, 12:23:24 PM",
+    "otpv": "409394"
   },
   {
-    "email": "dhruv@twigg.com",
-    "password": "dhruv@twigg.com",
-    "emailverified": "N",
-    "createdDateTime": "10/26/2026, 11:41:46 AM",
-    "otpv": "760914"
+    "email": "o@gmail.com",
+    "password": "o@gmail.com",
+    "emailverified": "Y",
+    "createdDateTime": "10/28/2026, 12:36:22 PM",
+    "otpv": "927497"
   },
   {
-    "email": "dhruvmakwana370@gmail.com",
-    "password": "dhruvmakwana370@gmail.com",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 11:15:48 AM",
-    "otpv": "836414"
-  },
-  {
-    "email": "dhruvmakwana371@gmail.com",
-    "password": "dhruvmakwana371@gmail.com",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 11:36:05 AM",
-    "otpv": "194215"
-  },
-  {
-    "email": "dhruvmakwana30@gmail.com",
-    "password": "dhruvmakwana30@gmail.com",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 11:36:28 AM",
-    "otpv": "912866"
-  },
-  {
-    "email": "dhruvmakwana123@gmail.com",
-    "password": "dhruvmakwana123@gmail.com",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 12:12:49 PM",
-    "otpv": "835710"
-  },
-  {
-    "email": "dhruvmakwana@gmail.com",
-    "password": "dhruvmakwana@gmail.com",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 12:13:27 PM",
-    "otpv": "501285"
-  },
-  {
-    "email": "xyz@gmail.com",
-    "password": "xyz@gmail.com",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 12:15:02 PM",
-    "otpv": "252412"
+    "email": "x@gmail.com",
+    "password": "x@gmail.com",
+    "emailverified": "Y",
+    "createdDateTime": "10/28/2026, 12:38:12 PM",
+    "otpv": "421942"
   },
   {
     "email": "abc@gmail.com",
     "password": "abc@gmail.com",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 12:15:49 PM",
-    "otpv": "109011"
-  },
-  {
-    "email": "otp@gmail.com",
-    "password": "otp@gmail.com",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 12:46:02 PM",
-    "otpv": "188077"
-  },
-  {
-    "email": "dhruv@twigg.ca",
-    "password": "dhruv@twigg.ca",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 12:58:37 PM",
-    "otpv": "373489"
-  },
-  {
-    "email": "dh@twigg.ca",
-    "password": "dh@twigg.ca",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 1:00:40 PM",
-    "otpv": "637666"
-  },
-  {
-    "email": "dd@twigg.ca",
-    "password": "dd@twigg.ca",
-    "emailverified": "N",
-    "createdDateTime": "10/27/2026, 1:01:51 PM",
-    "otpv": "801180"
+    "emailverified": "Y",
+    "createdDateTime": "10/28/2026, 12:39:26 PM",
+    "otpv": "669504"
   }
 ]
